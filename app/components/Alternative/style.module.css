@@ -1,0 +1,40 @@
+.component {
+    display: block;
+    background-color: rgb(63 81 181 / 20%);
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: opacity .2s;
+    border-radius: 4px;
+}
+
+.component:hover,
+.component:focus {
+    opacity: .6;
+}
+
+.input {
+    display: none;
+}
+
+.input:checked~.component {
+    background-color: var(--primary);
+    opacity: 1;
+}
+
+.inputCorect {
+    display: none;
+}
+
+.inputCorect:checked~.component {
+    background-color: green;
+    opacity: 1;
+}
+
+.inputIncorect {
+    display: none;
+}
+
+.inputIncorect:checked~.component {
+    background-color: red;
+    opacity: 1;
+}

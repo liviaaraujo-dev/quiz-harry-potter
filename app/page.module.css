@@ -1,0 +1,26 @@
+.screen {
+  background-size: cover;
+  padding-left: 13px;
+  padding-right: 13px;
+  background-position: center center;
+  padding-top: 40px;
+}
+
+@media (min-width: 600px) {
+  .screen {
+    /* --bg-img: url("/images/bg.jpg"); */
+    padding-left: 10%;
+    padding-right: 10%;
+    /* background-image: var(--bg-img); */
+    background-image: url("/images/bg8.png");
+    /* background-image: url("https://place-hold.it/1360x500"); */
+    padding-top: 50px;
+  }
+}
+
+@media (min-width: 600px){
+  
+  .container{
+    max-width: 350px;
+  }
+}

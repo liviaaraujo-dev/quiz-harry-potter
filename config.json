@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "image": "./images/bg1.png",
+      "title": "Qual o nome do primeiro filme?",
+      "alternatives": ["Harry Potter e a pedra do poço", "Harry Potter e a pedra filosofal", "Harry, Hermione, Rony", "Harry Potter Infernal"],
+      "answer": "1"
+    },
+    {
+      "image": "./images/bg3.jpg",
+      "title": "Qual o grupo principal dos filmes?",
+      "alternatives": ["Harry, Draco, Rony", "Harry, Draco, Hermione", "Hermione, Draco, Rony", "Harry, Hermione, Rony"],
+      "answer": "3"
+    },
+    {
+      "image": "./images/bg2.png",
+      "title": "Qual era o nome da mãe de Harry Potter?",
+      "alternatives": ["Laís", "Lila", "Lílian", "Laila"],
+      "answer": "2"
+    },
+    {
+      "image": "./images/bg6.jpeg",
+      "title": "Qual evento ocasionou a marca no rosto de harry potter?",
+      "alternatives": ["A marca de uma picada de aranha", "O encontro de quase morte com você sabe quem Tamar do feitiço a vada Kdabra", "A marca de um corte", "Ele simplesmente se cortou com o feitiço"],
+      "answer": "1"
+    },
+    {
+      "image": "./images/bg5.png",
+      "title": "Quem é o padrinho do Harry?",
+      "alternatives": ["Dumbledore ", "Severus Snape", "Sirios black", "Minerva"],
+      "answer": "2"
+    }
+  ]
+}
