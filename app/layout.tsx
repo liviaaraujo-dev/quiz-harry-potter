@@ -7,7 +7,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br">
-      <link rel="icon" type="image/png" href="logo-icon1.svg" />
+      <link rel="icon" href="./images/logo.png" />
       <body>{children}</body>
     </html>
   )
